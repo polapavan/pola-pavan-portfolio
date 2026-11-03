@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan Pola | Creative Marketing & Growth Strategist</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50: '#f0fdf4', 500: '#22c55e', 600: '#16a34a', dark: '#0a0a0a' }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#0a0a0a] text-gray-100 font-sans antialiased selection:bg-green-500 selection:text-black overflow-x-hidden">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/90 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
+            <a href="#" class="text-xl sm:text-2xl font-extrabold tracking-tight text-white">PAVAN<span class="text-green-500">.</span>POLA</a>
+            
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
+                <a href="#stats" class="hover:text-green-400 transition">Impact</a>
+                <a href="#ventures" class="hover:text-green-400 transition">Ventures</a>
+                <a href="#portfolio" class="hover:text-green-400 transition">Portfolio</a>
+                <a href="#experience" class="hover:text-green-400 transition">Experience</a>
+            </nav>
+
+            <div class="hidden md:block">
+                <a href="mailto:pavanpola2003@gmail.com" class="bg-green-500 hover:bg-green-600 text-black font-bold px-5 py-2.5 rounded-full text-sm transition">Let's Talk</a>
+            </div>
+
+            <!-- Mobile Hamburger Button -->
+            <button id="menu-btn" aria-label="Toggle Menu" class="md:hidden text-gray-300 hover:text-white p-2 focus:outline-none">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-[#0a0a0a] border-b border-gray-800 px-6 py-6 space-y-4">
+            <a href="#stats" class="mobile-link block text-lg font-medium text-gray-300 hover:text-green-400">Impact</a>
+            <a href="#ventures" class="mobile-link block text-lg font-medium text-gray-300 hover:text-green-400">Ventures</a>
+            <a href="#portfolio" class="mobile-link block text-lg font-medium text-gray-300 hover:text-green-400">Portfolio & Work</a>
+            <a href="#experience" class="mobile-link block text-lg font-medium text-gray-300 hover:text-green-400">Experience</a>
+            <div class="pt-4">
+                <a href="mailto:pavanpola2003@gmail.com" class="block text-center bg-green-500 text-black font-bold py-3 rounded-xl w-full">Let's Talk</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-28 pb-16 sm:pt-36 sm:pb-20 md:pt-48 md:pb-32 px-4 sm:px-6 border-b border-gray-800/60 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(34,197,94,0.15),rgba(255,255,255,0))]"></div>
+        <div class="max-w-5xl mx-auto text-center relative z-10">
+            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-500/10 text-green-400 text-xs font-semibold tracking-wide uppercase mb-6 border border-green-500/20">
+                <i class="fa-solid fa-bolt"></i> Creative Marketing & Growth Strategist
+            </span>
+            <h1 class="text-3xl sm:text-5xl md:text-7xl font-black tracking-tight text-white mb-6 leading-tight">
+                Scaling Brands with <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-200">Data & Creative Power</span>.
+            </h1>
+            <p class="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-8 sm:mb-10 px-2">
+                Specializing in brand growth, go-to-market strategies, video editing, performance marketing, and digital ecosystems that convert.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4 px-4 sm:px-0">
+                <a href="#portfolio" class="bg-green-500 hover:bg-green-600 text-black font-bold py-4 px-8 rounded-full transition shadow-lg shadow-green-500/20 text-center">Explore Work</a>
+                <a href="https://linkedin.com/in/pavanpola/" target="_blank" class="border border-gray-700 hover:border-gray-500 text-white font-semibold py-4 px-8 rounded-full transition flex items-center justify-center gap-2 text-center">
+                    <i class="fa-brands fa-linkedin text-green-400"></i> LinkedIn Profile
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metrics / Impact Stats Section -->
+    <section id="stats" class="py-16 sm:py-20 bg-gray-900/40 border-b border-gray-800 px-4 sm:px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12 sm:mb-16">
+                <h2 class="text-xs uppercase tracking-widest text-green-400 font-bold mb-3">Proven Results</h2>
+                <p class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white">Every number tells a story of measurable growth.</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center">
+                <div class="p-6 sm:p-8 rounded-2xl bg-gray-900 border border-gray-800">
+                    <div class="text-3xl sm:text-4xl md:text-6xl font-black text-white mb-2">170M+</div>
+                    <div class="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-wider">Total Views Generated</div>
+                </div>
+                <div class="p-6 sm:p-8 rounded-2xl bg-gray-900 border border-gray-800">
+                    <div class="text-3xl sm:text-4xl md:text-6xl font-black text-green-400 mb-2">100+</div>
+                    <div class="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-wider">Customer Base Scaled</div>
+                </div>
+                <div class="p-6 sm:p-8 rounded-2xl bg-gray-900 border border-gray-800">
+                    <div class="text-3xl sm:text-4xl md:text-6xl font-black text-white mb-2">5+</div>
+                    <div class="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-wider">Countries Reached</div>
+                </div>
+                <div class="p-6 sm:p-8 rounded-2xl bg-gray-900 border border-gray-800">
+                    <div class="text-3xl sm:text-4xl md:text-6xl font-black text-green-400 mb-2">8.5M+</div>
+                    <div class="text-xs sm:text-sm font-medium text-gray-400 uppercase tracking-wider">Revenue per Company</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Own Ventures Section -->
+    <section id="ventures" class="py-16 sm:py-24 px-4 sm:px-6 max-w-7xl mx-auto border-b border-gray-800">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 sm:mb-16">
+            <div>
+                <span class="text-green-400 text-xs font-bold uppercase tracking-widest block mb-2">Entrepreneurship</span>
+                <h2 class="text-3xl md:text-5xl font-black text-white tracking-tight">Own Brands & Ventures</h2>
+            </div>
+            <p class="text-gray-400 max-w-md mt-4 md:mt-0 text-sm sm:text-base">Founding and scaling independent ventures driven by AI data, creative branding, and targeted marketing.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+            <!-- Venture 1 -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-green-500/50 transition">
+                <div>
+                    <div class="text-xs text-green-400 font-bold mb-2 uppercase">AI-Driven Lead Gen</div>
+                    <h3 class="text-2xl font-bold text-white mb-3">ConCatch</h3>
+                    <p class="text-gray-400 text-sm mb-6">AI-driven data and lead-generation platform connecting healthcare organizations and property management firms with top professionals.</p>
+                </div>
+                <a href="https://share.google/ENyrfl0tGjJ15Sc6v" target="_blank" class="inline-flex items-center gap-2 text-green-400 hover:text-green-300 font-semibold text-sm py-2">
+                    Visit Venture <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <!-- Venture 2 -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-green-500/50 transition">
+                <div>
+                    <div class="text-xs text-green-400 font-bold mb-2 uppercase">Creative Agency</div>
+                    <h3 class="text-2xl font-bold text-white mb-3">Blak Box</h3>
+                    <p class="text-gray-400 text-sm mb-6">Creative brand focused on graphic design, video editing, content creation, and high-converting marketing content.</p>
+                </div>
+                <span class="text-gray-500 text-sm font-medium py-2">Core Creative Engine</span>
+            </div>
+            <!-- Venture 3 -->
+            <div class="bg-gray-900 border border-gray-800 rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-green-500/50 transition">
+                <div>
+                    <div class="text-xs text-green-400 font-bold mb-2 uppercase">Food & Beverage Brand</div>
+                    <h3 class="text-2xl font-bold text-white mb-3">Sri Sai Foods</h3>
+                    <p class="text-gray-400 text-sm mb-6">Food brand focused on Telugu-oriented branding, product launches, social media marketing, and impactful promotional content.</p>
+                </div>
+                <a href="https://www.instagram.com/srisaifoodsoffcial?stkn=Z3c4cnJyZmp1bngx" target="_blank" class="inline-flex items-center gap-2 text-green-400 hover:text-green-300 font-semibold text-sm py-2">
+                    View on Instagram <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Links Section -->
+    <section id="portfolio" class="py-16 sm:py-24 px-4 sm:px-6 max-w-7xl mx-auto border-b border-gray-800">
+        <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
+            <span class="text-green-400 text-xs font-bold uppercase tracking-widest block mb-2">Creative Archives</span>
+            <h2 class="text-3xl md:text-5xl font-black text-white tracking-tight mb-4">Portfolio & Client Work</h2>
+            <p class="text-gray-400 text-sm sm:text-base">Explore previous campaigns, branding assets, and specialized social channels managed and created by Pavan Pola.</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+            <!-- Item 1 -->
+            <a href="https://www.instagram.com/thekapturecrew_?srtk=ZjJ3b29jdXU4bjBr" target="_blank" class="group bg-gray-900 border border-gray-800 hover:border-green-500 p-5 sm:p-6 rounded-2xl transition flex items-center justify-between">
+                <div>
+                    <span class="text-xs text-green-400 font-bold block mb-1">Instagram Media</span>
+                    <h4 class="text-base sm:text-lg font-bold text-white group-hover:text-green-400 transition">The Kapture Crew</h4>
+                </div>
+                <i class="fa-brands fa-instagram text-2xl text-gray-500 group-hover:text-green-400 transition"></i>
+            </a>
+            <!-- Item 2 -->
+            <a href="https://drive.google.com/drive/folders/1hJLS63D4fvJyEGvOx2AW-lbhuUXH3FCE" target="_blank" class="group bg-gray-900 border border-gray-800 hover:border-green-500 p-5 sm:p-6 rounded-2xl transition flex items-center justify-between">
+                <div>
+                    <span class="text-xs text-green-400 font-bold block mb-1">Google Drive Asset Hub</span>
+                    <h4 class="text-base sm:text-lg font-bold text-white group-hover:text-green-400 transition">Creative Projects Repository</h4>
+                </div>
+                <i class="fa-brands fa-google-drive text-2xl text-gray-500 group-hover:text-green-400 transition"></i>
+            </a>
+            <!-- Item 3 -->
+            <a href="https://www.instagram.com/360_marketing_concepts?stkn=MWlxYmtpbjF2eG16cQ==" target="_blank" class="group bg-gray-900 border border-gray-800 hover:border-green-500 p-5 sm:p-6 rounded-2xl transition flex items-center justify-between">
+                <div>
+                    <span class="text-xs text-green-400 font-bold block mb-1">Marketing Agency</span>
+                    <h4 class="text-base sm:text-lg font-bold text-white group-hover:text-green-400 transition">360 Marketing Concepts</h4>
+                </div>
+                <i class="fa-brands fa-instagram text-2xl text-gray-500 group-hover:text-green-400 transition"></i>
+            </a>
+            <!-- Item 4 -->
+            <a href="https://www.instagram.com/nidhya_academy?stkn=MW50bDJheWU1MnFsdQ==" target="_blank" class="group bg-gray-900 border border-gray-800 hover:border-green-500 p-5 sm:p-6 rounded-2xl transition flex items-center justify-between">
+                <div>
+                    <span class="text-xs text-green-400 font-bold block mb-1">Medical Academy</span>
+                    <h4 class="text-base sm:text-lg font-bold text-white group-hover:text-green-400 transition">Nidhya Academy</h4>
+                </div>
+                <i class="fa-brands fa-instagram text-2xl text-gray-500 group-hover:text-green-400 transition"></i>
+            </a>
+            <!-- Item 5 -->
+            <a href="https://www.instagram.com/aroha_living_design?stkn=OWF2ODUwYnE2eGhh" target="_blank" class="group bg-gray-900 border border-gray-800 hover:border-green-500 p-5 sm:p-6 rounded-2xl transition flex items-center justify-between">
+                <div>
+                    <span class="text-xs text-green-400 font-bold block mb-1">Interior & Living</span>
+                    <h4 class="text-base sm:text-lg font-bold text-white group-hover:text-green-400 transition">Aroha Living Design</h4>
+                </div>
+                <i class="fa-brands fa-instagram text-2xl text-gray-500 group-hover:text-green-400 transition"></i>
+            </a>
+            <!-- Item 6 -->
+            <a href="https://www.instagram.com/clinojob_official?stkn=Ym5zenJhbjdoY294" target="_blank" class="group bg-gray-900 border border-gray-800 hover:border-green-500 p-5 sm:p-6 rounded-2xl transition flex items-center justify-between">
+                <div>
+                    <span class="text-xs text-green-400 font-bold block mb-1">Healthcare Employment</span>
+                    <h4 class="text-base sm:text-lg font-bold text-white group-hover:text-green-400 transition">ClinoJob Official</h4>
+                </div>
+                <i class="fa-brands fa-instagram text-2xl text-gray-500 group-hover:text-green-400 transition"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section id="experience" class="py-16 sm:py-24 px-4 sm:px-6 max-w-5xl mx-auto border-b border-gray-800">
+        <div class="text-center mb-12 sm:mb-16">
+            <span class="text-green-400 text-xs font-bold uppercase tracking-widest block mb-2">Career Track</span>
+            <h2 class="text-3xl md:text-5xl font-black text-white tracking-tight">Professional Experience</h2>
+        </div>
+        <div class="space-y-6 sm:space-y-12">
+            <!-- Job 1 -->
+            <div class="bg-gray-900 border border-gray-800 p-6 sm:p-8 rounded-2xl relative">
+                <div class="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
+                    <div>
+                        <h3 class="text-xl sm:text-2xl font-bold text-white">Marketing & Growth Strategist</h3>
+                        <p class="text-green-400 font-medium text-sm sm:text-base">Nidhya Medical Academy • Hyderabad, India</p>
+                    </div>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-400 bg-gray-800 px-3 sm:px-4 py-1.5 rounded-full w-fit">Jan 2026 - Present</span>
+                </div>
+                <p class="text-gray-300 text-sm leading-relaxed">
+                    Leading marketing strategies for brand presence, audience growth, market expansion in Andhra Pradesh, and the healthcare employment platform connecting private healthcare job seekers with hospitals.
+                </p>
+            </div>
+            <!-- Job 2 -->
+            <div class="bg-gray-900 border border-gray-800 p-6 sm:p-8 rounded-2xl relative">
+                <div class="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
+                    <div>
+                        <h3 class="text-xl sm:text-2xl font-bold text-white">Graphic Designer & Creative Marketing Specialist</h3>
+                        <p class="text-green-400 font-medium text-sm sm:text-base">Globo Persona • Hyderabad, India</p>
+                    </div>
+                    <span class="text-xs sm:text-sm font-semibold text-gray-400 bg-gray-800 px-3 sm:px-4 py-1.5 rounded-full w-fit">Oct 2023 - Jan 2026</span>
+                </div>
+                <p class="text-gray-300 text-sm leading-relaxed">
+                    Executed graphic design, video editing, motion graphics, and B2B lead-generation marketing assets for diverse client campaigns and digital communication initiatives.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Skills Section -->
+    <section class="py-16 sm:py-24 px-4 sm:px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-12 sm:mb-16">
+            <span class="text-green-400 text-xs font-bold uppercase tracking-widest block mb-2">Expertise</span>
+            <h2 class="text-3xl md:text-5xl font-black text-white tracking-tight">Core Skills & Toolstack</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+            <div class="bg-gray-900 border border-gray-800 p-6 sm:p-8 rounded-2xl">
+                <h3 class="text-lg sm:text-xl font-bold text-white mb-6 flex items-center gap-3">
+                    <i class="fa-solid fa-bullhorn text-green-400"></i> Marketing & Growth
+                </h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Marketing Strategy</span>
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Brand Growth</span>
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Go-to-Market Strategy</span>
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Digital Marketing</span>
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Content Strategy</span>
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Customer Acquisition</span>
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Healthcare Marketing</span>
+                </div>
+            </div>
+            <div class="bg-gray-900 border border-gray-800 p-6 sm:p-8 rounded-2xl">
+                <h3 class="text-lg sm:text-xl font-bold text-white mb-6 flex items-center gap-3">
+                    <i class="fa-solid fa-wand-magic-sparkles text-green-400"></i> Creative & Tools
+                </h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Graphic Design</span>
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Video Editing</span>
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Motion Graphics</span>
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Adobe Premiere Pro</span>
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Adobe After Effects</span>
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Figma & Canva</span>
+                    <span class="px-3 py-1.5 bg-gray-800 text-gray-300 rounded-lg text-xs sm:text-sm">Shopify & Hostinger</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800 py-12 px-6 text-center text-gray-500 text-sm">
+        <p>© 2026 Pavan Pola. All rights reserved. Built for high impact.</p>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
